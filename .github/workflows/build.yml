@@ -27,6 +27,8 @@ jobs:
         with:
           dotnet-version: 8.0.x
       - uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Install tools and dependencies
         run: |
