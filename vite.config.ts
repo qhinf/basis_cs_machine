@@ -7,6 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 // https://vitejs.dev/config/
 export default defineConfig({
     clearScreen: false,
+    base: "/basis_cs_machine/",
     build: {
         rollupOptions: {
             input: {
