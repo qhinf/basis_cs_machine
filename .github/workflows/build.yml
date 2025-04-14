@@ -32,7 +32,7 @@ jobs:
 
       - name: Install tools and dependencies
         run: |
-          dotnet tool install
+          dotnet tool restore
           dotnet restore
           pnpm install
 
