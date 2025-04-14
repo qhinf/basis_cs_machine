@@ -1,0 +1,60 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main {
+    font-size: 1.4em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .meters {
+    display: flex;
+    flex-direction: row;
+}
+
+main .meters div {
+    text-align: center;
+    padding: 1em 1.5em;
+}
+
+main .meters div p:last-child {
+    font-size: 2em;
+}
+
+main .meters div p {
+    margin: 0;
+}
+
+main .error {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgba(200, 0, 0, 0.4);
+}
+
+main .status {
+    margin-top: 1em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main .status p {
+    margin: 0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+aside button {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}

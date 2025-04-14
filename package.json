@@ -1,0 +1,21 @@
+{
+  "name": "basis_cs_machine",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet fable && pnpm vite build",
+    "watch": "dotnet fable watch --verbose --run pnpm vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.2.6"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
